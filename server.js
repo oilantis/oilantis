@@ -583,7 +583,11 @@ setInterval(
 generateEvent();
 
 /* SERVER */
+async function setupDatabase(){
+...
+}
 
+setupDatabase();
 const PORT =
 process.env.PORT || 3000;
 
